@@ -39,7 +39,7 @@ DATASET_PATH = "C:\\Users\\yeddu\\OneDrive\\Documents\\nlp capstone 2.0\\sarcasm
 # -----------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:\\Users\\yeddu\\OneDrive\\Documents\\nlp capstone 2.0\\sarcasm_large_synthetic_dataset_2000.csv")
+    return pd.read_csv("sarcasm_large_synthetic_dataset_2000.csv")
 
 df = load_data()
 
@@ -350,3 +350,4 @@ with tabs[5]:
     - Include conversation history for better context  
     - Support multiple languages  
     """)
+
