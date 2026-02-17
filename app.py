@@ -32,7 +32,7 @@ if "last_prediction" not in st.session_state:
 # -----------------------
 st.set_page_config(page_title="Sarcasm Detection Dashboard", layout="wide")
 st.title("🧠 Sarcasm Detection – NLP Dashboard")
-DATASET_PATH = "C:\\Users\\yeddu\\OneDrive\\Documents\\nlp capstone 2.0\\sarcasm_large_synthetic_dataset_2000.csv"
+DATASET_PATH = "sarcasm_large_synthetic_dataset_2000.csv"
 
 # -----------------------
 # Load data
@@ -350,4 +350,5 @@ with tabs[5]:
     - Include conversation history for better context  
     - Support multiple languages  
     """)
+
 
